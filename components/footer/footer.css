@@ -1,0 +1,22 @@
+footer {
+  height: 10vh;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+footer h2 {
+  font-size: 2em;
+}
+.contactList {
+  width: 50%;
+  display: flex;
+  gap: 4%;
+  align-items: center;
+  justify-content: center;
+}
+.contactList img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

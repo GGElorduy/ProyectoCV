@@ -1,0 +1,25 @@
+.headerContainer {
+  height: 16vh;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+.navList > li {
+  cursor: pointer;
+}
+.navList > li:hover {
+  color: chocolate;
+}
+.selected {
+  color: chocolate;
+}
+h1 {
+  font-size: 3em;
+}

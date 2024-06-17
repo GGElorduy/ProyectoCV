@@ -1,0 +1,22 @@
+.colorInvert {
+  filter: invert(100%);
+  width: 80px;
+  height: 80px;
+}
+.contactList img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.closeIcon {
+  filter: invert(100%);
+}
+.contactList {
+  position: fixed;
+  top: 35em;
+  left: 5em;
+  height: 5rem;
+}
+.contactList > li:hover {
+  filter: brightness(130%);
+}
