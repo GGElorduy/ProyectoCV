@@ -1,5 +1,5 @@
 import './contact.css'
-import { personalInfo } from '../sectionMain/sectionMain'
+import { personalInfo } from '../../data/data'
 export const printContact = () => {
   const list = document.querySelector('.contactList')
   const mainbut = document.createElement('li')

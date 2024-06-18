@@ -1,0 +1,17 @@
+/* .skills{} */
+
+.allCards {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.allCards > li {
+  background-color: white;
+  color: black;
+  padding: 20px 20px;
+  cursor: pointer;
+}

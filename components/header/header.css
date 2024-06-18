@@ -1,14 +1,27 @@
-.headerContainer {
-  height: 16vh;
+header {
+  width: 100%;
   display: flex;
+  flex: wrap;
   color: white;
   justify-content: space-around;
   align-items: center;
+  padding: var(--rtc-padding-l);
+}
+header > h1 {
+  font-size: var(--rtc-fontsize-l);
+}
+header > nav > ul > li {
+  font-size: var(--rtc-fontsize-s);
 }
 
-.navList {
+header > nav {
   display: flex;
-  gap: 30px;
+  gap: 10px;
+  flex-direction: row;
+}
+header > nav > ul {
+  display: flex;
+  gap: 10px;
   flex-direction: row;
 }
 .navList > li {
@@ -20,6 +33,14 @@
 .selected {
   color: chocolate;
 }
-h1 {
-  font-size: 3em;
+
+/* Media query para tablet */
+@media (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    gap: var(--rtc-gap-l);
+  }
+  header > nav > ul {
+    flex-wrap: wrap;
+  }
 }

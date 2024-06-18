@@ -42,6 +42,11 @@
   --rtc-header-radius: 10px;
   --rtc-product-radius: 20px;
   --rtc-border-radius-max: 40px;
+  /* Font Size */
+  --rtc-fontsize-s: 1rem;
+  --rtc-fontsize-m: 1.2rem;
+  --rtc-fontsize-l: 1.5rem;
+  --rtc-fontsize-xl: 2rem;
 }
 ul,
 li,
@@ -52,7 +57,25 @@ a {
 body {
   width: 100%;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main {
   height: 84vh;
+}
+#hero > h2 {
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+  main {
+    width: 100%;
+    height: fit-content;
+  }
+  #hero {
+    width: 100%;
+  }
 }
