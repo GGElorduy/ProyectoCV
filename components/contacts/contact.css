@@ -13,10 +13,16 @@
 }
 .contactList {
   position: fixed;
-  top: 35em;
-  left: 5em;
+  top: 15em;
+  left: 10em;
   height: 5rem;
 }
 .contactList > li:hover {
   filter: brightness(130%);
+}
+@media (max-width: 650px) {
+  .contactList {
+    position: fixed;
+    left: 0.5px;
+  }
 }

@@ -67,15 +67,3 @@ main {
 #hero > h2 {
   font-size: 0.9rem;
 }
-@media (max-width: 768px) {
-}
-
-@media (max-width: 320px) {
-  main {
-    width: 100%;
-    height: fit-content;
-  }
-  #hero {
-    width: 100%;
-  }
-}

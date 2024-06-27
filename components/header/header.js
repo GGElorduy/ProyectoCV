@@ -1,11 +1,9 @@
 import './header.css'
-import {
-  printEducation,
-  printExp,
-  printProject
-} from '../sectionMain/sectionMain'
 import { printPersonalInfo } from '../PersonalInfo/PersonalInfo'
+import { printEducation } from '../Education/Education'
+import { printExp } from '../Experience/Experience'
 import { printSkills } from '../Skills/Skills'
+import { printProject } from '../Projects/Projects'
 
 export const printHeader = () => {
   const perInfoBut = document.querySelector('#perInfo')

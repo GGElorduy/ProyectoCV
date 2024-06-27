@@ -160,7 +160,7 @@ export const projects = [
     Name: 'Online-shop',
     img: 'https://res.cloudinary.com/dbnbfpype/image/upload/v1717237313/Proyects/ScreenShot_Tool_-20240601122109_2_nuo17k.png',
     desccription:
-      'Este proyecto es una tienda de arte en línea de la artista Sil Elorduy. La plataforma permite a los usuarios explorar y adquirir obras de arte de manera sencilla y eficiente, ofreciendo diferentes filtros de búsqueda para facilitar la navegación y la selección de artículos. Desarrollada con tecnologías modernas, la tienda asegura una experiencia de usuario óptima y personalizada.',
+      'This project is an online art store by artist Sil Elorduy. The platform allows users to explore and acquire artworks in a simple and efficient manner, offering various search filters to facilitate navigation and item selection. Developed with modern technologies, the store ensures an optimal and personalized user experience.',
     link: 'https://github.com/GGElorduy/Online-Shop.git'
   }
 ]
