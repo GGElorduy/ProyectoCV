@@ -22,3 +22,80 @@
 .skills {
   padding-bottom: var(--rtc-padding-l);
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.progLang {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.progLang > li {
+  padding: 5px 10px;
+  background-color: coral;
+  border-radius: 10%;
+}
+#hero ul.section {
+  list-style: none;
+  padding: 0;
+}
+
+#hero ul.section li {
+  font-size: 1.1em;
+  background: #ecf0f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: 4px solid #2980b9;
+  border-radius: 4px;
+}
+
+#hero ul.section li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .card {
+    width: 200px;
+  }
+  table,
+  th,
+  td {
+    font-size: 14px;
+  }
+  .allCards {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  table,
+  th,
+  td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  table,
+  th,
+  td {
+    font-size: 10px;
+    padding: 4px;
+  }
+}
